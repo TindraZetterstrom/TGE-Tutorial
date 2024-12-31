@@ -7,6 +7,14 @@ ctrl + f and search "movement" to see all the stuff you need to add
 
 */
 
+/* !=!=!=!=!=! UPDATE !=!=!=!=!=!
+
+	You'll most likely only use this method for pong tbh...
+	Look at the "Movement with 'windows.h'" tutorial instead, it's much easier to deal with too
+
+*/
+
+
 #include "stdafx.h"
 
 #include "GameWorld.h"

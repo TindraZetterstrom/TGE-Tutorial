@@ -22,6 +22,19 @@ when accessing the images don't forget to write it like this "sprites/image_name
 ...think this is how you did it at least...I'll check tomorrow
  */
 
+
+ /* !=!=!=!=!=! UPDATE !=!=!=!=!=!
+	
+	For some reason the tutorial above doesn't work for me like 99% of the time so if you want your assets to be GUARENTEED to work do this!
+
+	1. In the TGE map there's an "EngineAssets" folder, press it
+	2. go to "Sprites" and put all your assets there
+	3. WATCH THEM ALL WORK WITHOUT FAIL!!!
+
+	(now it's just "Sprites/image_name.png" (or whatever img format you're using))
+
+ */
+
 #include "stdafx.h"
 
 #include "GameWorld.h"
@@ -36,6 +49,8 @@ GameWorld::GameWorld()
 
 GameWorld::~GameWorld() 
 {}
+
+
 
 void GameWorld::Init()  
 {
@@ -62,11 +77,16 @@ void GameWorld::Init()
 		myOwnImageInstance.myColor = Tga::Color(1, 1, 1, 1);
 	}
 }
+
+
+
 void GameWorld::Update(float aTimeDelta)
 {
 	UNREFERENCED_PARAMETER(aTimeDelta);
 
 }
+
+
 
 void GameWorld::Render()
 {
@@ -79,6 +99,4 @@ void GameWorld::Render()
 		spriteDrawer.Draw(myOwnImageSharedData, myOwnImageInstance); // draws second picture
 
 	}
-
-
 }
