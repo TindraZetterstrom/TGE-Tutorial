@@ -10,7 +10,7 @@ ctrl + f and search "movement" to see all the stuff you need to add
 /* !=!=!=!=!=! UPDATE !=!=!=!=!=!
 
 	You'll most likely only use this method for pong tbh...
-	Look at the "Input with 'windows.h'" tutorial instead, it's much easier to deal with too
+	Look at the "Input with 'windows.h'" tutorial instead, it covers movement as well (it's much easier to deal with too)
 
 */
 
